@@ -1,4 +1,4 @@
-﻿/****************************************************************************
+/****************************************************************************
  *  Copyright (C) 2018 RoboMaster.
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -58,7 +58,7 @@ typedef __packed struct
 {
   int32_t yaw_offset;
   int32_t pitch_offset;
-  uint8_t cali_cmd;    //1:calibrate  0:no operation
+  uint8_t cali_cmd;    //1:calibrate  0:no operate
   uint8_t calied_done; //0x55:already calied
 } gim_cali_t;
 
