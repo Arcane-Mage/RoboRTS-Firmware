@@ -1,4 +1,4 @@
-/****************************************************************************
+﻿/****************************************************************************
  *  Copyright (C) 2018 RoboMaster.
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -65,7 +65,7 @@ typedef __packed struct
 typedef __packed struct
 {
   int16_t offset[3];   //x,y,z
-  uint8_t cali_cmd;    //1:calibrate  0:not
+  uint8_t cali_cmd;
   uint8_t calied_done;
   char*   name;
 } imu_cali_t;
